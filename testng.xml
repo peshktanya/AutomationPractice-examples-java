@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default Suite" parallel="classes" thread-count="2">
+  <test verbose="6" name="practiceExample">
+    <groups>
+      <run>
+        <exclude name="Regression"></exclude>
+      </run>
+    </groups>
+    <classes>
+      <class name="log.in.AutomationPracticeTest"/>
+      <class name="contact.us.ContactUsTests"/>
+
+    </classes>
+
+  </test> <!-- practiceExample -->
+
+</suite> <!-- Default Suite -->
